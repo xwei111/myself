@@ -1,0 +1,1568 @@
+@charset "UTF-8";
+html, body {
+  height: 100%;
+  width: 100%; }
+
+img {
+  height: 100%;
+  width: 100%;
+  display: block;
+  border: none; }
+
+.ab {
+  position: absolute; }
+
+@font-face {
+  font-family: 'iconfont';
+  /* project id 201542 */
+  src: url("//at.alicdn.com/t/font_wseu1fou98rdlsor.eot");
+  src: url("//at.alicdn.com/t/font_wseu1fou98rdlsor.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_wseu1fou98rdlsor.woff") format("woff"), url("//at.alicdn.com/t/font_wseu1fou98rdlsor.ttf") format("truetype"), url("//at.alicdn.com/t/font_wseu1fou98rdlsor.svg#iconfont") format("svg"); }
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; }
+  .swiper-container .swiper-slide {
+    position: relative;
+    background: url(../img/cartoon_abstract_colors_07_1920x1200_1222_3744_8.jpg) no-repeat;
+    background-size: cover; }
+    .swiper-container .swiper-slide .igdiv1 {
+      width: 100%;
+      height: 100%;
+      position: absolute; }
+    .swiper-container .swiper-slide .music {
+      position: absolute;
+      left: 13rem;
+      top: 0.3rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      z-index: 99999; }
+    .swiper-container .swiper-slide .music1 {
+      display: none;
+      position: absolute;
+      left: 13rem;
+      top: 0.3rem;
+      width: 2.5rem;
+      height: 2.5rem;
+      z-index: 99999; }
+    .swiper-container .swiper-slide .shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); }
+    .swiper-container .swiper-slide .up {
+      z-index: 2;
+      width: 4%;
+      height: 2%;
+      left: 48%;
+      bottom: 4%;
+      color: #fff; }
+    .swiper-container .swiper-slide .box1 {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .swiper-container .swiper-slide .box1 img {
+        position: absolute; }
+      .swiper-container .swiper-slide .box1 .ig1 {
+        width: 7rem;
+        height: 7rem;
+        left: 50%;
+        margin-left: -3rem;
+        top: 2.5rem; }
+      .swiper-container .swiper-slide .box1 .ig2 {
+        width: 6rem;
+        height: 6rem;
+        left: 50%;
+        margin-left: -2.5rem;
+        top: 3rem;
+        border-radius: 50%; }
+      .swiper-container .swiper-slide .box1 .div1 {
+        position: absolute;
+        display: flex;
+        width: 6rem;
+        height: 6rem;
+        left: 50%;
+        margin-left: -2.5rem;
+        top: 3rem;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.5);
+        justify-content: center;
+        align-items: center; }
+        .swiper-container .swiper-slide .box1 .div1 .sp1 {
+          display: block;
+          width: 1rem;
+          height: 1rem;
+          border-radius: 50%;
+          background: rgba(255, 255, 255, 0.2);
+          z-index: 3333; }
+      .swiper-container .swiper-slide .box1 .igdiv {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0; }
+        .swiper-container .swiper-slide .box1 .igdiv .ig3 {
+          width: 8rem;
+          height: 8rem;
+          left: 50%;
+          margin-left: -3.6rem;
+          top: 2rem; }
+      .swiper-container .swiper-slide .box1 .p1 {
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        color: #fff;
+        text-align: center;
+        top: 11.5rem;
+        font-size: 0.8rem;
+        letter-spacing: 0.06rem;
+        font-weight: 500; }
+      .swiper-container .swiper-slide .box1 .ig4 {
+        width: 7rem;
+        height: 1.4rem;
+        left: 50%;
+        margin-left: -3.5rem;
+        top: 12.6rem; }
+      .swiper-container .swiper-slide .box1 .ig5 {
+        width: 6rem;
+        height: 0.2rem;
+        left: 50%;
+        margin-left: -3rem;
+        top: 14.4rem; }
+      .swiper-container .swiper-slide .box1 .p2 {
+        width: 100%;
+        position: absolute;
+        margin: 0 auto;
+        color: #fff;
+        top: 15rem;
+        font-size: 0.6rem;
+        letter-spacing: 0.04rem;
+        font-weight: 500;
+        text-align: center; }
+      .swiper-container .swiper-slide .box1 .p3 {
+        position: absolute;
+        width: 100%;
+        left: 12.5%;
+        color: #fff;
+        top: 20rem;
+        font-size: 0.6rem;
+        font-weight: 500;
+        text-align: center; }
+      .swiper-container .swiper-slide .box1 .p5 {
+        position: absolute;
+        width: 100%;
+        right: 12.5%;
+        color: #fff;
+        top: 20rem;
+        font-size: 0.6rem;
+        font-weight: 500;
+        text-align: center; }
+      .swiper-container .swiper-slide .box1 .ig6 {
+        width: 9rem;
+        height: 1.5rem;
+        left: 50%;
+        margin-left: -4.5rem;
+        top: 21rem; }
+      .swiper-container .swiper-slide .box1 .know {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0; }
+        .swiper-container .swiper-slide .box1 .know .ig7 {
+          width: 0.55rem;
+          height: 0.55rem;
+          top: 21.4rem;
+          left: 31%; }
+        .swiper-container .swiper-slide .box1 .know .p4 {
+          position: absolute;
+          width: 100%;
+          margin: 0 auto;
+          color: #000;
+          top: 21.4rem;
+          font-size: 0.6rem;
+          font-weight: 500;
+          text-align: center; }
+        .swiper-container .swiper-slide .box1 .know .ig8 {
+          width: 0.55rem;
+          height: 0.55rem;
+          top: 21.4rem;
+          right: 30%; }
+    .swiper-container .swiper-slide .box2 {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .swiper-container .swiper-slide .box2 img {
+        position: absolute; }
+      .swiper-container .swiper-slide .box2 .img1 {
+        width: 6rem;
+        height: 6rem;
+        left: 50%;
+        margin-left: -3rem;
+        top: 2rem; }
+      .swiper-container .swiper-slide .box2 .img2 {
+        width: 4.6rem;
+        height: 4.6rem;
+        left: 50%;
+        margin-left: -2.3rem;
+        top: 2.6rem; }
+      .swiper-container .swiper-slide .box2 .img3 {
+        width: 3rem;
+        height: 1.2rem;
+        left: 50%;
+        margin-left: -1.5rem;
+        top: 4.3rem;
+        z-index: 9; }
+      .swiper-container .swiper-slide .box2 .img4 {
+        width: 4.4rem;
+        height: 0.5rem;
+        left: 0%;
+        top: 4.8rem; }
+      .swiper-container .swiper-slide .box2 .img5 {
+        width: 4.4rem;
+        height: 0.5rem;
+        right: 0%;
+        top: 4.8rem; }
+      .swiper-container .swiper-slide .box2 .img6 {
+        width: 1.5rem;
+        height: 1.2rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 9rem; }
+      .swiper-container .swiper-slide .box2 .img7 {
+        width: 0.8rem;
+        height: 0.8rem;
+        left: 50%;
+        margin-left: -1.6rem;
+        top: 9.1rem; }
+      .swiper-container .swiper-slide .box2 .img8 {
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        top: 8.7rem; }
+      .swiper-container .swiper-slide .box2 .p_1 {
+        position: absolute;
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        top: 8.7rem;
+        color: #fff;
+        z-index: 2;
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: 1.6rem;
+        font-family: "arial, helvetica, sans-serif"; }
+      .swiper-container .swiper-slide .box2 .img9 {
+        width: 10rem;
+        height: 0.2rem;
+        left: 50%;
+        margin-left: -5rem;
+        top: 10.7rem; }
+      .swiper-container .swiper-slide .box2 .img10 {
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 11.7rem; }
+      .swiper-container .swiper-slide .box2 .p_2 {
+        position: absolute;
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 11.7rem;
+        color: #fff;
+        z-index: 2;
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: 1.6rem;
+        font-family: "arial, helvetica, sans-serif"; }
+      .swiper-container .swiper-slide .box2 .img11 {
+        width: 0.8rem;
+        height: 0.8rem;
+        left: 50%;
+        margin-left: 1.7rem;
+        top: 12.1rem; }
+      .swiper-container .swiper-slide .box2 .img12 {
+        width: 1.5rem;
+        height: 1.2rem;
+        left: 50%;
+        margin-left: 3.4rem;
+        top: 11.9rem; }
+      .swiper-container .swiper-slide .box2 .img13 {
+        width: 10rem;
+        height: 0.2rem;
+        left: 50%;
+        margin-left: -5rem;
+        top: 13.7rem; }
+      .swiper-container .swiper-slide .box2 .img14 {
+        width: 1.5rem;
+        height: 1.2rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 14.9rem; }
+      .swiper-container .swiper-slide .box2 .img15 {
+        width: 0.8rem;
+        height: 0.8rem;
+        left: 50%;
+        margin-left: -1.6rem;
+        top: 15.1rem; }
+      .swiper-container .swiper-slide .box2 .img16 {
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        top: 14.7rem; }
+      .swiper-container .swiper-slide .box2 .p_3 {
+        position: absolute;
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        top: 14.7rem;
+        color: #fff;
+        z-index: 2;
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: 1.6rem;
+        font-family: "arial, helvetica, sans-serif"; }
+      .swiper-container .swiper-slide .box2 .img17 {
+        width: 10rem;
+        height: 0.2rem;
+        left: 50%;
+        margin-left: -5rem;
+        top: 16.7rem; }
+      .swiper-container .swiper-slide .box2 .img18 {
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 17.7rem; }
+      .swiper-container .swiper-slide .box2 .p_4 {
+        position: absolute;
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 17.7rem;
+        color: #fff;
+        z-index: 2;
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: 1.6rem;
+        font-family: "arial, helvetica, sans-serif"; }
+      .swiper-container .swiper-slide .box2 .img19 {
+        width: 0.8rem;
+        height: 0.8rem;
+        left: 50%;
+        margin-left: 1.7rem;
+        top: 18.1rem; }
+      .swiper-container .swiper-slide .box2 .img20 {
+        width: 1.5rem;
+        height: 1.2rem;
+        left: 50%;
+        margin-left: 3.4rem;
+        top: 17.9rem; }
+      .swiper-container .swiper-slide .box2 .img21 {
+        width: 10rem;
+        height: 0.2rem;
+        left: 50%;
+        margin-left: -5rem;
+        top: 19.9rem; }
+      .swiper-container .swiper-slide .box2 .img22 {
+        width: 1.5rem;
+        height: 1.2rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 21rem; }
+      .swiper-container .swiper-slide .box2 .img23 {
+        width: 0.8rem;
+        height: 0.8rem;
+        left: 50%;
+        margin-left: -1.6rem;
+        top: 21.2rem; }
+      .swiper-container .swiper-slide .box2 .img24 {
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        top: 20.8rem; }
+      .swiper-container .swiper-slide .box2 .p_5 {
+        position: absolute;
+        width: 5rem;
+        height: 1.6rem;
+        left: 50%;
+        top: 20.8rem;
+        color: #fff;
+        z-index: 2;
+        font-size: 0.7rem;
+        text-align: center;
+        line-height: 1.6rem;
+        font-family: "arial, helvetica, sans-serif"; }
+      .swiper-container .swiper-slide .box2 .img25 {
+        width: 10rem;
+        height: 0.2rem;
+        left: 50%;
+        margin-left: -5rem;
+        top: 22.8rem; }
+    .swiper-container .swiper-slide .box3 {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden; }
+      .swiper-container .swiper-slide .box3 img {
+        position: absolute; }
+      .swiper-container .swiper-slide .box3 .top {
+        display: block;
+        position: absolute;
+        font-size: 7rem;
+        top: -3.4rem;
+        left: 50%;
+        margin-left: -3.5rem;
+        width: 1rem; }
+      .swiper-container .swiper-slide .box3 .image1 {
+        width: 1.4rem;
+        height: 1rem;
+        left: 50%;
+        margin-left: -0.7rem;
+        top: 0.7rem; }
+      .swiper-container .swiper-slide .box3 .igdiv2 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box3 .igdiv2 .image2 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem; }
+        .swiper-container .swiper-slide .box3 .igdiv2 .p-1 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem;
+          position: absolute;
+          color: #fff;
+          font-weight: 900;
+          z-index: 2;
+          font-size: 1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-family: "榛戜綋"; }
+      .swiper-container .swiper-slide .box3 .p-2 {
+        width: 100%;
+        margin: 6.3rem auto;
+        position: absolute;
+        color: #fff;
+        font-size: 0.8rem;
+        font-family: arial;
+        letter-spacing: 0.2rem;
+        text-align: center; }
+      .swiper-container .swiper-slide .box3 .image3 {
+        width: 14rem;
+        height: 18rem;
+        left: 50%;
+        top: 8rem;
+        margin-left: -7rem; }
+      .swiper-container .swiper-slide .box3 .image4 {
+        width: 6rem;
+        height: 1.8rem;
+        left: 50%;
+        margin-left: -3rem;
+        top: 9rem; }
+      .swiper-container .swiper-slide .box3 .image5 {
+        width: 6rem;
+        height: 1.8rem;
+        left: 50%;
+        margin-left: -2rem;
+        top: 9rem; }
+      .swiper-container .swiper-slide .box3 .image6 {
+        width: 1rem;
+        height: 0.8rem;
+        left: 50%;
+        margin-left: -3.9rem;
+        top: 9.5rem; }
+      .swiper-container .swiper-slide .box3 .image7 {
+        width: 1rem;
+        height: 0.8rem;
+        left: 50%;
+        margin-left: 3.9rem;
+        top: 9.5rem; }
+      .swiper-container .swiper-slide .box3 .p-3 {
+        width: 6rem;
+        height: 2rem;
+        left: 50%;
+        margin-left: -3rem;
+        top: 9rem;
+        position: absolute;
+        color: #000;
+        z-index: 2;
+        font-size: 1.2rem;
+        text-align: center;
+        line-height: 2rem; }
+      .swiper-container .swiper-slide .box3 .p-4 {
+        width: 6rem;
+        height: 2rem;
+        left: 50%;
+        margin-left: -3rem;
+        top: 10.5rem;
+        position: absolute;
+        color: #000;
+        font-weight: 900;
+        z-index: 2;
+        font-size: 0.8rem;
+        text-align: center;
+        line-height: 2rem;
+        letter-spacing: 0.2rem; }
+      .swiper-container .swiper-slide .box3 .igdiv3 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box3 .igdiv3 .image8 {
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 12.5rem; }
+        .swiper-container .swiper-slide .box3 .igdiv3 .image9 {
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 15rem; }
+        .swiper-container .swiper-slide .box3 .igdiv3 .image10 {
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 17.5rem; }
+        .swiper-container .swiper-slide .box3 .igdiv3 .image11 {
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 20rem; }
+        .swiper-container .swiper-slide .box3 .igdiv3 .image12 {
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 22.5rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image13 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 13.1rem;
+        left: 50%;
+        margin-left: -4.6rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image14 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 13.1rem;
+        left: 50%;
+        margin-left: 4.2rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image15 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 15.6rem;
+        left: 50%;
+        margin-left: -4.6rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image16 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 15.6rem;
+        left: 50%;
+        margin-left: 4.2rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image17 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 18.1rem;
+        left: 50%;
+        margin-left: -4.6rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image18 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 18.1rem;
+        left: 50%;
+        margin-left: 4.2rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image19 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 20.6rem;
+        left: 50%;
+        margin-left: -4.6rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image20 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 20.6rem;
+        left: 50%;
+        margin-left: 4.2rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image21 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 23.1rem;
+        left: 50%;
+        margin-left: -4.6rem; }
+      .swiper-container .swiper-slide .box3 .igdiv4 .image22 {
+        width: 0.4rem;
+        height: 0.4rem;
+        top: 23.1rem;
+        left: 50%;
+        margin-left: 4.2rem; }
+      .swiper-container .swiper-slide .box3 .igdiv5 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box3 .igdiv5 .p-5 {
+          position: absolute;
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 12.5rem;
+          font-size: 0.74rem;
+          text-align: center;
+          line-height: 1.6rem; }
+        .swiper-container .swiper-slide .box3 .igdiv5 .p-6 {
+          position: absolute;
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 15rem;
+          font-size: 0.74rem;
+          text-align: center;
+          line-height: 1.6rem; }
+        .swiper-container .swiper-slide .box3 .igdiv5 .p-7 {
+          position: absolute;
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 17.5rem;
+          font-size: 0.74rem;
+          text-align: center;
+          line-height: 1.6rem; }
+        .swiper-container .swiper-slide .box3 .igdiv5 .p-8 {
+          position: absolute;
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 20rem;
+          font-size: 0.74rem;
+          text-align: center;
+          line-height: 1.6rem; }
+        .swiper-container .swiper-slide .box3 .igdiv5 .p-9 {
+          position: absolute;
+          width: 11rem;
+          height: 1.6rem;
+          left: 50%;
+          margin-left: -5.5rem;
+          top: 22.5rem;
+          font-size: 0.74rem;
+          text-align: center;
+          line-height: 1.6rem; }
+    .swiper-container .swiper-slide .box4 {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden; }
+      .swiper-container .swiper-slide .box4 img {
+        position: absolute; }
+      .swiper-container .swiper-slide .box4 .top {
+        display: block;
+        position: absolute;
+        font-size: 7rem;
+        top: -3.4rem;
+        left: 50%;
+        margin-left: -3.5rem;
+        width: 1rem; }
+      .swiper-container .swiper-slide .box4 .image1 {
+        width: 1.4rem;
+        height: 1rem;
+        left: 50%;
+        margin-left: -0.7rem;
+        top: 0.7rem; }
+      .swiper-container .swiper-slide .box4 .igdiv2 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box4 .igdiv2 .image2 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem; }
+        .swiper-container .swiper-slide .box4 .igdiv2 .p-1 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem;
+          position: absolute;
+          color: #fff;
+          font-weight: 900;
+          z-index: 2;
+          font-size: 1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-family: "榛戜綋"; }
+      .swiper-container .swiper-slide .box4 .p-2 {
+        width: 100%;
+        margin: 6.3rem auto;
+        position: absolute;
+        color: #fff;
+        font-size: 0.8rem;
+        font-family: arial;
+        letter-spacing: 0.2rem;
+        text-align: center; }
+      .swiper-container .swiper-slide .box4 .igdiv6 {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: #000;
+        left: 50%;
+        margin-left: -6rem;
+        top: 9rem;
+        border-radius: 50%; }
+        .swiper-container .swiper-slide .box4 .igdiv6 .im1 {
+          width: 2.5rem;
+          height: 2.5rem; }
+        .swiper-container .swiper-slide .box4 .igdiv6 .circle1 {
+          position: absolute;
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+          background: #fff;
+          left: 50%;
+          top: 50%;
+          margin-left: -1rem;
+          margin-top: -1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-size: 0.6rem;
+          font-family: "arial black";
+          color: blue; }
+      .swiper-container .swiper-slide .box4 .im2 {
+        width: 1.1rem;
+        height: 1.1rem;
+        left: 50%;
+        top: 9.75rem;
+        margin-left: -3rem; }
+      .swiper-container .swiper-slide .box4 .igdiv7 {
+        position: absolute;
+        width: 7rem;
+        height: 1.4rem;
+        background: #000;
+        top: 9.6rem;
+        left: 50%;
+        margin-left: -1.5rem;
+        border-radius: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv7 .im3 {
+          width: 6.9rem;
+          height: 1.4rem; }
+        .swiper-container .swiper-slide .box4 .igdiv7 .blue {
+          position: absolute;
+          width: 6.6rem;
+          height: 1rem;
+          background: #336666;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv7 .im4 {
+          position: absolute;
+          width: 6.072rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv7 .p1 {
+          width: 6.072rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem;
+          display: flex;
+          position: absolute;
+          font-size: 0.8rem;
+          flex-direction: row-reverse;
+          line-height: 1rem;
+          color: blue;
+          font-family: "arial narrow"; }
+      .swiper-container .swiper-slide .box4 .igdiv8 {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: #000;
+        left: 50%;
+        margin-left: -6rem;
+        top: 12.6rem;
+        border-radius: 50%; }
+        .swiper-container .swiper-slide .box4 .igdiv8 .im5 {
+          width: 2.5rem;
+          height: 2.5rem; }
+        .swiper-container .swiper-slide .box4 .igdiv8 .circle2 {
+          position: absolute;
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+          background: #fff;
+          left: 50%;
+          top: 50%;
+          margin-left: -1rem;
+          margin-top: -1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-size: 0.6rem;
+          font-family: "arial black";
+          color: blue; }
+      .swiper-container .swiper-slide .box4 .im6 {
+        width: 1.1rem;
+        height: 1.1rem;
+        left: 50%;
+        top: 13.25rem;
+        margin-left: -3rem; }
+      .swiper-container .swiper-slide .box4 .igdiv9 {
+        position: absolute;
+        width: 7rem;
+        height: 1.4rem;
+        background: #000;
+        top: 13.1rem;
+        left: 50%;
+        margin-left: -1.5rem;
+        border-radius: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv9 .im3 {
+          width: 6.9rem;
+          height: 1.4rem; }
+        .swiper-container .swiper-slide .box4 .igdiv9 .blue {
+          position: absolute;
+          width: 6.6rem;
+          height: 1rem;
+          background: #336666;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv9 .im4 {
+          position: absolute;
+          width: 6.21rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv9 .p1 {
+          width: 6.21rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem;
+          display: flex;
+          position: absolute;
+          font-size: 0.8rem;
+          flex-direction: row-reverse;
+          line-height: 1rem;
+          color: blue;
+          font-family: "arial narrow"; }
+      .swiper-container .swiper-slide .box4 .igdiv10 {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: #000;
+        left: 50%;
+        margin-left: -6rem;
+        top: 16.2rem;
+        border-radius: 50%; }
+        .swiper-container .swiper-slide .box4 .igdiv10 .im5 {
+          width: 2.5rem;
+          height: 2.5rem; }
+        .swiper-container .swiper-slide .box4 .igdiv10 .circle2 {
+          position: absolute;
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+          background: #fff;
+          left: 50%;
+          top: 50%;
+          margin-left: -1rem;
+          margin-top: -1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-size: 0.6rem;
+          font-family: "arial black";
+          color: blue; }
+      .swiper-container .swiper-slide .box4 .im7 {
+        width: 1.1rem;
+        height: 1.1rem;
+        left: 50%;
+        top: 16.8rem;
+        margin-left: -3rem; }
+      .swiper-container .swiper-slide .box4 .igdiv11 {
+        position: absolute;
+        width: 7rem;
+        height: 1.4rem;
+        background: #000;
+        top: 16.7rem;
+        left: 50%;
+        margin-left: -1.5rem;
+        border-radius: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv11 .im3 {
+          width: 6.9rem;
+          height: 1.4rem; }
+        .swiper-container .swiper-slide .box4 .igdiv11 .blue {
+          position: absolute;
+          width: 6.6rem;
+          height: 1rem;
+          background: #336666;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv11 .im4 {
+          position: absolute;
+          width: 5.87rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv11 .p1 {
+          width: 5.87rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem;
+          display: flex;
+          position: absolute;
+          font-size: 0.8rem;
+          flex-direction: row-reverse;
+          line-height: 1rem;
+          color: blue;
+          font-family: "arial narrow"; }
+      .swiper-container .swiper-slide .box4 .igdiv12 {
+        position: absolute;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: #000;
+        left: 50%;
+        margin-left: -6rem;
+        top: 19.7rem;
+        border-radius: 50%; }
+        .swiper-container .swiper-slide .box4 .igdiv12 .im5 {
+          width: 2.5rem;
+          height: 2.5rem; }
+        .swiper-container .swiper-slide .box4 .igdiv12 .circle2 {
+          position: absolute;
+          width: 2rem;
+          height: 2rem;
+          border-radius: 50%;
+          background: #fff;
+          left: 50%;
+          top: 50%;
+          margin-left: -1rem;
+          margin-top: -1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-size: 0.6rem;
+          font-family: "arial black";
+          color: blue; }
+      .swiper-container .swiper-slide .box4 .im8 {
+        width: 1.1rem;
+        height: 1.1rem;
+        left: 50%;
+        top: 20.35rem;
+        margin-left: -3rem; }
+      .swiper-container .swiper-slide .box4 .igdiv13 {
+        position: absolute;
+        width: 7rem;
+        height: 1.4rem;
+        background: #000;
+        top: 20.25rem;
+        left: 50%;
+        margin-left: -1.5rem;
+        border-radius: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv13 .im3 {
+          width: 6.9rem;
+          height: 1.4rem; }
+        .swiper-container .swiper-slide .box4 .igdiv13 .blue {
+          position: absolute;
+          width: 6.6rem;
+          height: 1rem;
+          background: #336666;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv13 .im4 {
+          position: absolute;
+          width: 6.21rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem; }
+        .swiper-container .swiper-slide .box4 .igdiv13 .p1 {
+          width: 6.21rem;
+          height: 1rem;
+          top: 0.2rem;
+          left: 0.2rem;
+          display: flex;
+          position: absolute;
+          font-size: 0.8rem;
+          flex-direction: row-reverse;
+          line-height: 1rem;
+          color: blue;
+          font-family: "arial narrow"; }
+    .swiper-container .swiper-slide .box5 {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden; }
+      .swiper-container .swiper-slide .box5 img {
+        position: absolute; }
+      .swiper-container .swiper-slide .box5 .top {
+        display: block;
+        position: absolute;
+        font-size: 7rem;
+        top: -3.4rem;
+        left: 50%;
+        margin-left: -3.5rem;
+        width: 1rem; }
+      .swiper-container .swiper-slide .box5 .image1 {
+        width: 1.4rem;
+        height: 1rem;
+        left: 50%;
+        margin-left: -0.7rem;
+        top: 0.7rem; }
+      .swiper-container .swiper-slide .box5 .igdiv2 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box5 .igdiv2 .image2 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem; }
+        .swiper-container .swiper-slide .box5 .igdiv2 .p-1 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem;
+          position: absolute;
+          color: #fff;
+          font-weight: 900;
+          z-index: 2;
+          font-size: 1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-family: "榛戜綋"; }
+      .swiper-container .swiper-slide .box5 .p-2 {
+        width: 100%;
+        margin: 6.3rem auto;
+        position: absolute;
+        color: #fff;
+        font-size: 0.8rem;
+        font-family: arial;
+        letter-spacing: 0.2rem;
+        text-align: center; }
+      .swiper-container .swiper-slide .box5 .ag1 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -0.2rem;
+        top: 8.8rem; }
+      .swiper-container .swiper-slide .box5 .line {
+        position: absolute;
+        height: 1rem;
+        width: 6rem;
+        box-sizing: border-box;
+        border-top: 2px dashed #99ffff;
+        top: 8.9rem;
+        left: 50%;
+        margin-left: -6rem; }
+      .swiper-container .swiper-slide .box5 .line1 {
+        position: absolute;
+        height: 13rem;
+        width: 1rem;
+        box-sizing: border-box;
+        border-right: 2px dashed #99ffff;
+        top: 8.95rem;
+        left: 50%;
+        margin-left: -6.9rem; }
+      .swiper-container .swiper-slide .box5 .line2 {
+        position: absolute;
+        height: 1rem;
+        width: 6rem;
+        box-sizing: border-box;
+        border-top: 2px dashed #99ffff;
+        top: 21.95rem;
+        left: 50%;
+        margin-left: -6rem; }
+      .swiper-container .swiper-slide .box5 .line3 {
+        position: absolute;
+        height: 6.5rem;
+        width: 1rem;
+        box-sizing: border-box;
+        border-right: 2px dashed #99ffff;
+        top: 22rem;
+        left: 50%;
+        margin-left: -1rem; }
+      .swiper-container .swiper-slide .box5 .ag2 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -6.2rem;
+        top: 11.5rem; }
+      .swiper-container .swiper-slide .box5 .agg {
+        position: absolute;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 100%;
+        box-sizing: border-box;
+        border: 1px solid #99FFFF;
+        top: 11.3rem;
+        left: 50%;
+        margin-left: -6.4rem; }
+      .swiper-container .swiper-slide .box5 .ag3 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -6.2rem;
+        top: 16.5rem; }
+      .swiper-container .swiper-slide .box5 .agg1 {
+        position: absolute;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 100%;
+        box-sizing: border-box;
+        border: 1px solid #99FFFF;
+        top: 16.3rem;
+        left: 50%;
+        margin-left: -6.4rem; }
+      .swiper-container .swiper-slide .box5 .ag6 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -0.25rem;
+        top: 21.8rem; }
+      .swiper-container .swiper-slide .box5 .p1 {
+        position: absolute;
+        top: 11.2rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        color: #fff;
+        font-size: 0.8rem; }
+      .swiper-container .swiper-slide .box5 .ag4 {
+        width: 10rem;
+        height: 1.4rem;
+        top: 12.7rem;
+        left: 50%;
+        margin-left: -5.2rem; }
+      .swiper-container .swiper-slide .box5 .ap4 {
+        position: absolute;
+        width: 10rem;
+        height: 1.4rem;
+        top: 12.7rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff; }
+      .swiper-container .swiper-slide .box5 .p2 {
+        position: absolute;
+        top: 16.2rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        color: #fff;
+        font-size: 0.8rem; }
+      .swiper-container .swiper-slide .box5 .ag5 {
+        width: 10rem;
+        height: 1.4rem;
+        top: 17.7rem;
+        left: 50%;
+        margin-left: -5.2rem; }
+      .swiper-container .swiper-slide .box5 .ap5 {
+        position: absolute;
+        width: 10rem;
+        height: 1.4rem;
+        top: 17.7rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff; }
+    .swiper-container .swiper-slide .box6 {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden; }
+      .swiper-container .swiper-slide .box6 img {
+        position: absolute; }
+      .swiper-container .swiper-slide .box6 .top {
+        display: block;
+        position: absolute;
+        font-size: 7rem;
+        top: -3.4rem;
+        left: 50%;
+        margin-left: -3.5rem;
+        width: 1rem; }
+      .swiper-container .swiper-slide .box6 .image1 {
+        width: 1.4rem;
+        height: 1rem;
+        left: 50%;
+        margin-left: -0.7rem;
+        top: 0.7rem; }
+      .swiper-container .swiper-slide .box6 .igdiv2 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box6 .igdiv2 .image2 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem; }
+        .swiper-container .swiper-slide .box6 .igdiv2 .p-1 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem;
+          position: absolute;
+          color: #fff;
+          font-weight: 900;
+          z-index: 2;
+          font-size: 1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-family: "榛戜綋"; }
+      .swiper-container .swiper-slide .box6 .p-2 {
+        width: 100%;
+        margin: 6.3rem auto;
+        position: absolute;
+        color: #fff;
+        font-size: 0.8rem;
+        font-family: arial;
+        letter-spacing: 0.2rem;
+        text-align: center; }
+      .swiper-container .swiper-slide .box6 .ag1 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -0.2rem;
+        top: 8.8rem; }
+      .swiper-container .swiper-slide .box6 .line {
+        position: absolute;
+        height: 1rem;
+        width: 2rem;
+        box-sizing: border-box;
+        border-top: 2px dashed #99ffff;
+        top: 8.9rem;
+        left: 50%;
+        margin-left: -6rem; }
+      .swiper-container .swiper-slide .box6 .line1 {
+        position: absolute;
+        height: 13rem;
+        width: 1rem;
+        box-sizing: border-box;
+        border-right: 2px dashed #99ffff;
+        top: 8.95rem;
+        left: 50%;
+        margin-left: -6.9rem; }
+      .swiper-container .swiper-slide .box6 .line2 {
+        position: absolute;
+        height: 1rem;
+        width: 6rem;
+        box-sizing: border-box;
+        border-top: 2px dashed #99ffff;
+        top: 21.95rem;
+        left: 50%;
+        margin-left: -6rem; }
+      .swiper-container .swiper-slide .box6 .line3 {
+        position: absolute;
+        height: 6.5rem;
+        width: 1rem;
+        box-sizing: border-box;
+        border-right: 2px dashed #99ffff;
+        top: 22rem;
+        left: 50%;
+        margin-left: -1rem; }
+      .swiper-container .swiper-slide .box6 .line4 {
+        position: absolute;
+        height: 1rem;
+        width: 2rem;
+        box-sizing: border-box;
+        border-top: 2px dashed #99ffff;
+        top: 15.7rem;
+        left: 50%;
+        margin-left: -6rem; }
+      .swiper-container .swiper-slide .box6 .ag2 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -6.2rem;
+        top: 8.65rem; }
+      .swiper-container .swiper-slide .box6 .agg {
+        position: absolute;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 100%;
+        box-sizing: border-box;
+        border: 1px solid #99FFFF;
+        top: 8.45rem;
+        left: 50%;
+        margin-left: -6.4rem; }
+      .swiper-container .swiper-slide .box6 .igdiv14 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box6 .igdiv14 .ag7 {
+          width: 10rem;
+          height: 5rem;
+          left: 50%;
+          margin-left: -3.8rem;
+          top: 8.65rem;
+          border-radius: 3px; }
+        .swiper-container .swiper-slide .box6 .igdiv14 .ag9 {
+          width: 9.6rem;
+          height: 4.6rem;
+          left: 50%;
+          margin-left: -3.6rem;
+          top: 8.85rem; }
+      .swiper-container .swiper-slide .box6 .ag3 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -6.2rem;
+        top: 15.5rem; }
+      .swiper-container .swiper-slide .box6 .agg1 {
+        position: absolute;
+        width: 0.8rem;
+        height: 0.8rem;
+        border-radius: 100%;
+        box-sizing: border-box;
+        border: 1px solid #99FFFF;
+        top: 15.3rem;
+        left: 50%;
+        margin-left: -6.4rem; }
+      .swiper-container .swiper-slide .box6 .igdiv15 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box6 .igdiv15 .ag8 {
+          width: 10rem;
+          height: 5rem;
+          left: 50%;
+          margin-left: -3.8rem;
+          top: 15.5rem;
+          border-radius: 3px; }
+        .swiper-container .swiper-slide .box6 .igdiv15 .ag10 {
+          width: 9.6rem;
+          height: 4.6rem;
+          left: 50%;
+          margin-left: -3.6rem;
+          top: 15.7rem; }
+      .swiper-container .swiper-slide .box6 .ag6 {
+        width: 0.4rem;
+        height: 0.4rem;
+        border-radius: 100%;
+        left: 50%;
+        margin-left: -0.25rem;
+        top: 21.8rem; }
+      .swiper-container .swiper-slide .box6 .p1 {
+        position: absolute;
+        top: 11.2rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        color: #fff;
+        font-size: 0.8rem; }
+      .swiper-container .swiper-slide .box6 .ag4 {
+        width: 10rem;
+        height: 1.4rem;
+        top: 12.7rem;
+        left: 50%;
+        margin-left: -5.2rem; }
+      .swiper-container .swiper-slide .box6 .ap4 {
+        position: absolute;
+        width: 10rem;
+        height: 1.4rem;
+        top: 12.7rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff; }
+      .swiper-container .swiper-slide .box6 .p2 {
+        position: absolute;
+        top: 16.2rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        color: #fff;
+        font-size: 0.8rem; }
+      .swiper-container .swiper-slide .box6 .ag5 {
+        width: 10rem;
+        height: 1.4rem;
+        top: 17.7rem;
+        left: 50%;
+        margin-left: -5.2rem; }
+      .swiper-container .swiper-slide .box6 .ap5 {
+        position: absolute;
+        width: 10rem;
+        height: 1.4rem;
+        top: 17.7rem;
+        left: 50%;
+        margin-left: -5.2rem;
+        line-height: 1.4rem;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff; }
+    .swiper-container .swiper-slide .box7 {
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      overflow: hidden; }
+      .swiper-container .swiper-slide .box7 img {
+        position: absolute; }
+      .swiper-container .swiper-slide .box7 .top {
+        display: block;
+        position: absolute;
+        font-size: 7rem;
+        top: -3.4rem;
+        left: 50%;
+        margin-left: -3.5rem;
+        width: 1rem; }
+      .swiper-container .swiper-slide .box7 .image1 {
+        width: 1.4rem;
+        height: 1rem;
+        left: 50%;
+        margin-left: -0.7rem;
+        top: 0.7rem; }
+      .swiper-container .swiper-slide .box7 .igdiv2 {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box7 .igdiv2 .image2 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem; }
+        .swiper-container .swiper-slide .box7 .igdiv2 .p-1 {
+          width: 6rem;
+          height: 2rem;
+          left: 50%;
+          margin-left: -3rem;
+          top: 3.6rem;
+          position: absolute;
+          color: #fff;
+          font-weight: 900;
+          z-index: 2;
+          font-size: 1rem;
+          text-align: center;
+          line-height: 2rem;
+          font-family: "榛戜綋"; }
+      .swiper-container .swiper-slide .box7 .p-2 {
+        width: 100%;
+        margin: 6.3rem auto;
+        position: absolute;
+        color: #fff;
+        font-size: 0.8rem;
+        font-family: arial;
+        letter-spacing: 0.2rem;
+        text-align: center; }
+      .swiper-container .swiper-slide .box7 .agdiv {
+        width: 100%;
+        height: 100%;
+        position: absolute; }
+        .swiper-container .swiper-slide .box7 .agdiv .g1 {
+          width: 7rem;
+          height: 7rem;
+          left: 50%;
+          margin-left: -3.5rem;
+          top: 9rem; }
+      .swiper-container .swiper-slide .box7 .g2 {
+        width: 8rem;
+        height: 1.3rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 18.5rem; }
+      .swiper-container .swiper-slide .box7 .p1 {
+        position: absolute;
+        width: 8rem;
+        height: 1.3rem;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff;
+        left: 50%;
+        margin-left: -4rem;
+        top: 18.5rem;
+        line-height: 1.3rem;
+        z-index: 22; }
+      .swiper-container .swiper-slide .box7 .g3 {
+        width: 8rem;
+        height: 1.3rem;
+        left: 50%;
+        margin-left: -4rem;
+        top: 20.5rem; }
+      .swiper-container .swiper-slide .box7 .p2 {
+        position: absolute;
+        width: 8rem;
+        height: 1.3rem;
+        text-align: center;
+        font-size: 0.8rem;
+        color: #fff;
+        left: 50%;
+        margin-left: -4rem;
+        top: 20.5rem;
+        line-height: 1.3rem;
+        z-index: 22; }
+      .swiper-container .swiper-slide .box7 .line {
+        position: absolute;
+        height: 0.5rem;
+        border-top: 2px dashed #99ffff;
+        width: 13rem;
+        top: 3rem;
+        left: 50%;
+        margin-left: -6.5rem;
+        top: 23.5rem; }
+      .swiper-container .swiper-slide .box7 .g4 {
+        width: 0.3rem;
+        height: 0.3rem;
+        border-radius: 50%;
+        left: 50%;
+        margin-left: -0.12rem;
+        top: 23.7rem; }
+      .swiper-container .swiper-slide .box7 .igdiv16 {
+        position: absolute;
+        width: 0.7rem;
+        height: 0.7rem;
+        border-radius: 50%;
+        border: 1px solid #99ffff;
+        top: 23.5rem;
+        left: 50%;
+        margin-left: -0.36rem; }
+
+/*# sourceMappingURL=style.css.map */
